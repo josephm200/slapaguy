@@ -16,13 +16,14 @@ html,body{
 
 /* Player container: centered box */
 .player{
-  width: min(90vw, 1000px);
-  height: min(70vh, 600px);
-  max-width:1000px;
-  max-height:800px;
-  border-radius:12px;
+  /* doubled size: reduce margin and increase max dimensions */
+  width: calc(100vw - 20px);
+  height: calc(100vh - 20px);
+  max-width:3200px;
+  max-height:2000px;
+  border-radius:4px;
   overflow:hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.6), 0 2px 6px rgba(0,0,0,0.4);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.66);
   background:#000;
   position:relative;
 }

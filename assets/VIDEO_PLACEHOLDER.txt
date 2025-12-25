@@ -1,0 +1,8 @@
+Place your MP4 file here as `video.mp4`.
+
+Path: assets/video.mp4
+
+Notes:
+- The HTML references `/assets/video.mp4`.
+- For local testing, put a file named `video.mp4` in this folder.
+- When publishing, upload `assets/video.mp4` alongside the other files.
